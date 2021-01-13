@@ -417,7 +417,7 @@ figure{
 /*coming soon*/
 #contact h1{
 	text-align:center;
-	animation: fadeInRight 1s;
+	animation: fadeInUp 1s;
 }
 /*the fade*/
 @keyframes fadeInRight {
