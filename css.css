@@ -387,7 +387,7 @@ figure{
 	animation: fadeInRight 1s;
 	width:100%;
 	height: auto;
-	margin-left:0rem;
+	margin-left:0.5rem;
 }
 #image h4{
 	margin-top:-20px;
@@ -396,7 +396,7 @@ figure{
 	animation: fadeInRight 1s;
 	width:100%;
 	height: auto;
-	margin-left:0rem;
+	margin-left:0.5rem;
 }
 #image p.lead{
 	font-size: 0.9rem;
@@ -404,7 +404,7 @@ figure{
 	animation: fadeInRight 1s;
 	width:100%;
 	height: auto;
-	margin-left:0rem;
+	margin-left:0.5rem;
 }
 #image .The-image img{
 	margin-left: auto;
