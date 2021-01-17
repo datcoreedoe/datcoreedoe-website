@@ -182,7 +182,6 @@ body{
 }
 /*Hover over the image to change opacity*/
 .image{
-	/*margin-left:auto;*/
 	position:relative;
 	width:400px;
 	margin-left:0rem;
@@ -191,8 +190,9 @@ body{
 .art-piece{
 	display:block;
 	width:100%;
-	height:auto;
+	height:400px;
 	padding:0rem;
+	object-fit: cover;
 }
 .overlay{
 	position:absolute;
@@ -230,56 +230,8 @@ body{
 	font-size:1.25em;
 	margin-top:0.25em;
 }
-/*portfolio boxes (unused)
-.art-section{
-	font-weight: bold;
-	font-size: 1.6rem;
-	line-height: 1.3;
-	line-height:1.3;
-	margin:0 0 4em;
-}
-.project{
-	display: block;
-	width: 100%;
-	text-decoration: none;
-	margin: 1em 0;
-	cursor:pointer;
-}
-figure{
-	margin:0;
-	padding:0;
-}
-.project figure img{
-	width:100%;
-	display:block;
-	object-fit:cover;
-	animation: fadeInUp 1s;
-	height: 500px;
-	opacity:1;
-}
-.project figcaption{
-	padding: 1em;
-	background:#966116;
-	color:#fff;
-	animation: fadeInUp 1s;
-}
-.project h3{
-	color:white;
-	margin:0;
-	animation: fadeInUp 1s;
-}
-.cta{
-	margin: .5em 0;
-	animation: fadeInUp 1s;
-}
-.cta:after{
-	content:'\f061';
-	font-family:"Font Awesome 5 Free";
-	margin:0 0 .5em .5em;
-}
-
 /*make the images go up and down when hovering*/
-/*@media screen and (min-width:960px){
+@media screen and (min-width:960px){
 	.art-wrapper{
 		max-width:960px;
 		margin: 0 auto;
@@ -292,33 +244,7 @@ figure{
 	.project:nth-child(1){
 		grid-column:1 / span 3;
 	}
-	.project{
-		width:100%;
-		height:500px;
-		text-decoration:none;
-		margin:0;
-	}
-	.project figure{
-		position: relative;
-		overflow:hidden;
-	}
-	.project figure img{
-		position:relative;
-		z-index:999;
-		transition:transform 0.4s;
-	}
-	.project figure:hover img{
-		transform:translateY(-150px);
-	}
-	.project figcaption{
-		position: absolute;
-		left:0;
-		bottom:0;
-		padding:20px;
-		height:150px;
-		width:100%;
-	}
-}*/
+}
 /*Final Pass showcase*/
 /*#image{
 	
@@ -414,6 +340,16 @@ figure{
 	margin-top:-100px;
 	animation: fadeInRight 1s;
 }
+#image .The-image-2 img{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	max-width: 100%;
+	height:auto;
+	margin-top:-100px;
+	animation: fadeInRight 1s;
+}
+
 /*coming soon*/
 #contact h1{
 	text-align:center;
