@@ -439,7 +439,7 @@ nav .icon-burger .line {
 	display:block;
 	max-width:100%;
 	height:auto;
-	margin-top:-100px;
+	margin-top: 50px;
 	animation: fadeInRight 1s;
 }
 #image .The-image-2 img{
@@ -448,7 +448,7 @@ nav .icon-burger .line {
 	display:block;
 	max-width: 100%;
 	height:auto;
-	margin-top:-100px;
+	margin-top: 50px;
 	animation: fadeInRight 1s;
 }
 
